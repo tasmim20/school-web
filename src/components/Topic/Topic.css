@@ -1,0 +1,25 @@
+.topic img{
+    height: 350px;
+    width: 100%;
+    background-color: black;
+}
+.topic{
+    border: 1px solid black;
+    border-radius: 5px;
+}
+.flex{
+    display: flex;
+    justify-content: space-between;
+}
+.flex button{
+    border: none;
+    color: white;
+    background-color:rgb(29, 93, 184);
+    margin-top: 5px;
+    margin-bottom: 5px;
+ margin-right: 7px;
+    border-radius: 5px; 
+}
+.flex button:hover{
+    background-color: blue;
+}

@@ -1,0 +1,13 @@
+.option{
+    margin-left: 0;
+    border: none;
+    display: flex;
+    /* display: grid;
+    grid-template-columns: repeat(2 1fr); */
+    /* margin-left:10px ; */
+    background-color:gainsboro;
+  
+}
+.quiz{
+    margin-left: 10px;
+}
