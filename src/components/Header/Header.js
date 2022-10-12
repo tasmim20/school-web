@@ -14,8 +14,8 @@ function CollapsibleHeader() {
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="me-auto"  xs={12} bg="warning">
-          <Nav.Link as={Link} to={'/'}>Home</Nav.Link>
-          <Nav.Link as={Link} to={'/topics'}>Topics</Nav.Link>
+          {/* <Nav.Link as={Link} to={'/'}>Home</Nav.Link> */}
+          <Nav.Link as={Link} to={'/'}>Topics</Nav.Link>
             <Nav.Link as={Link} to={'/statistics'}>Statistics</Nav.Link>
             <Nav.Link as={Link} to={'/blog'}>Blog</Nav.Link>
           </Nav>
