@@ -45,7 +45,8 @@ function App() {
           element:<Blog></Blog>
         }
       ]
-    }
+    },
+    {path: '*', element: <div>This route not found: 404</div>}
 
   ])
   return (
