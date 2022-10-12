@@ -11,6 +11,7 @@ import { Button } from 'react-bootstrap';
 
 const TopicDetail = (props) => {
     const {question,options,correctAnswer} = props.topic;
+  
 
     const [clicked, setClicked] = useState(false)
 
@@ -33,14 +34,17 @@ const TopicDetail = (props) => {
 
     return (
         <div className='question'>
-          
+       
            <div className='answer'> 
+        
             <h4>{question} </h4>
-            <button>
-                <FontAwesomeIcon  onClick={notify} icon={faEye}></FontAwesomeIcon>
+            <button className='icon2'>
+            <FontAwesomeIcon  onClick={notify} icon={faEye}></FontAwesomeIcon>
                 <ToastContainer 
         theme="colored"></ToastContainer>
             </button>
+        
+           
             </div>
     {
         options.map(option => <p className='flex2' onClick={()=> selectOption (option)}> <Button variant="light">{option}</Button> </p>)

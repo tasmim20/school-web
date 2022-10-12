@@ -6,6 +6,7 @@
 .topic{
     border: 1px solid black;
     border-radius: 5px;
+   
 }
 .flex{
     display: flex;
@@ -23,11 +24,7 @@
 .flex button:hover{
     background-color: blue;
 }
-.button{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
+
 .icon{
     margin-left: 5px;
 }
