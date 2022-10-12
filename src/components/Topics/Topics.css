@@ -1,4 +1,4 @@
-.topics{
+.topic1{
     margin-top: 20px;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
@@ -8,3 +8,29 @@
 
 
 }
+.imgg{
+    background-image: url(/src/images/web7.jpg);
+    background-position: fixed;
+    height: 800px;
+    width: 100%;
+    margin-top: -200px;
+    margin-bottom: 50px;
+   
+}
+
+
+
+.title4{
+  font-weight: bold;
+  font-size: 50px;
+}
+.about{
+  padding-top:400px;
+  justify-content: center;
+  align-items: center;
+}
+
+.about2{
+  color:whitesmoke;
+}
+
